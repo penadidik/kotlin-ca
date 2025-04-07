@@ -166,6 +166,31 @@ class MongoConfig : AbstractMongoClientConfiguration() {
     ```
 ---
 
+Application will be running at:  
+📍 `http://localhost:8080`
+
+---
+
+## 🧪 API Endpoints
+
+### User
+
+- `GET /users` - List users
+- `GET /users/{id}` - Get user by ID
+- `POST /users` - Create new user
+- `PUT /users/{id}` - Update user
+- `DELETE /users/{id}` - Delete user
+
+### ToDo
+
+- `GET /todos` - List todos
+- `GET /todos/{id}` - Get todo by ID
+- `POST /todos` - Create new todo
+- `PUT /todos/{id}` - Update todo
+- `DELETE /todos/{id}` - Delete todo
+
+---
+
 ### 🧪 Example Requests
 
 ```bash
