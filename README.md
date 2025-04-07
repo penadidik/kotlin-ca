@@ -164,6 +164,12 @@ class MongoConfig : AbstractMongoClientConfiguration() {
     mvn clean install
     mvn spring-boot:run
     ```
+5. Alternative Run by Docker:
+    a. change application.properties to docker config
+    b. run below
+    ```
+    docker-compose up --build
+    ```
 ---
 
 Application will be running at:  
