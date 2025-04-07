@@ -159,7 +159,14 @@ class MongoConfig : AbstractMongoClientConfiguration() {
     ```bash
     ./gradlew bootRun
     ```
-
+4. Alternative Build & Run:
+    ```
+    mvn clean install
+    mvn spring-boot:run
+    ```
+    ```
+    ```
+    ```
 ---
 
 ### 🧪 Example Requests

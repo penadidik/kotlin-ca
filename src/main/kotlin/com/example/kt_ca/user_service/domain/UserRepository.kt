@@ -1,6 +1,6 @@
-package com.demo.kt_ca.user_service.domain
+package com.example.kt_ca.user_service.domain
 
-import com.demo.kt_ca.user_service.domain.User
+import com.example.kt_ca.user_service.domain.User
 
 interface UserRepository {
     fun findAll(): List<User>

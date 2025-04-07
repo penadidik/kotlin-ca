@@ -1,4 +1,4 @@
-package com.demo.kt_ca.user_service.domain
+package com.example.kt_ca.user_service.domain
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document

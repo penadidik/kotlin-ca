@@ -1,8 +1,8 @@
-package com.demo.kt_ca.user_service.application
+package com.example.kt_ca.user_service.application
 
 import org.springframework.stereotype.Service
-import com.demo.kt_ca.user_service.domain.User
-import com.demo.kt_ca.user_service.infrastructure.UserMongoRepository
+import com.example.kt_ca.user_service.domain.User
+import com.example.kt_ca.user_service.infrastructure.UserMongoRepository
 
 @Service
 class UserService(private val repository: UserMongoRepository) {

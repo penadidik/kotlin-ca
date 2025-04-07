@@ -1,10 +1,10 @@
-package com.demo.kt_ca.user_service.api
+package com.example.kt_ca.user_service.api
 
 import org.springframework.web.bind.annotation.*
-import com.demo.kt_ca.user_service.application.UserService
-import com.demo.kt_ca.user_service.domain.User
+import com.example.kt_ca.user_service.application.UserService
+import com.example.kt_ca.user_service.domain.User
 
-@RestContoller
+@RestController
 @RequestMapping("/users")
 class UserController(private val userService: UserService) {
 
